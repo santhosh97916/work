@@ -1,0 +1,95 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+body,html{
+    scroll-behavior: smooth;
+}
+
+header ,nav,section,article,footer{
+    display: block;
+}
+
+.header{
+    height: 120vh;
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+}
+.logo{
+height: 54px;
+padding: 4px;
+
+}
+.icon-bar{
+    background-color: aquamarine;
+}
+
+li a{
+    color: darkolivegreen;
+}
+
+
+.big-text{
+    font-size: 52px;
+    margin: 20px 0;
+    color: red;
+}
+a.button{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+a.button-first{
+    background-color: lime;
+    color: blue;
+}
+a.button-second{
+    background: transparent;
+    border: 1px solid green;
+    color: maroon;
+}
+a.button:hover{
+    background: orange;
+    border: none;
+    color: aqua;
+    box-shadow: 5px 5px 5px rgb(255, 0, 183);
+    transition: 0.3s;
+
+}
+.banner-info,.banner-image{
+    margin: 200px 0px;
+}
+
+.home{
+    font-size: 50px;
+    background-color: aqua;
+}
+.features{font-size: 50px;
+    background-color: aqua;
+}
+.gallery{
+    font-size: 50px;
+    background-color: green;
+    
+}
+
+
+.about{
+    font-size: 50px;
+    background-color: blueviolet;
+}
+.contactus{
+    margin-left: 150px;
+    font-size: 50px;
+   background-color: blue;
+   display: flex;
+   padding: 0;
+ 
+}
+
+
